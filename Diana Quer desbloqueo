@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de Desbloqueo</title>
+    <style>
+        /* Estilo básico */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            text-align: center;
+        }
+
+        #app {
+            text-align: center;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: black;
+        }
+
+        #codigo {
+            font-size: 24px;
+            margin: 20px 0;
+            height: 30px;
+            color: black;
+        }
+
+        /* Estilo para los botones */
+        .boton {
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            border-radius: 50%; /* Botones redondos */
+            background-color: white;
+            border: 2px solid lightgray;
+            color: black;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .boton:active {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h2>Introduce el código de desbloqueo</h2>
+        <div id="codigo"></div>
+        <div id="botones">
+            <!-- Botones del 1 al 9 y 0 -->
+            <div class="boton" onclick="ingresarNumero(1)">1</div>
+            <div class="boton" onclick="ingresarNumero(2)">2</div>
+            <div class="boton" onclick="ingresarNumero(3)">3</div>
+            <div class="boton" onclick="ingresarNumero(4)">4</div>
+            <div class="boton" onclick="ingresarNumero(5)">5</div>
+            <div class="boton" onclick="ingresarNumero(6)">6</div>
+            <div class="boton" onclick="ingresarNumero(7)">7</div>
+            <div class="boton" onclick="ingresarNumero(8)">8</div>
+            <div class="boton" onclick="ingresarNumero(9)">9</div>
+            <div class="boton" onclick="ingresarNumero(0)">0</div>
+        </div>
+    </div>
+
+    <script>
+        // Variable para almacenar el código ingresado
+        let codigo = '';
+
+        // Función para manejar el ingreso de números
+        function ingresarNumero(num) {
+            codigo += num;
+            document.getElementById('codigo').innerText = codigo;
+            
+            // Si el código tiene 6 dígitos, hacer que la pantalla tiemble y reiniciar el código
+            if (codigo.length === 6) {
+                temblarPantalla();
+                codigo = ''; // Reinicia el código ingresado
+                setTimeout(() => {
+                    document.getElementById('codigo').innerText = '';
+                }, 300); // Limpia la pantalla después de un breve tiempo
+            }
+        }
+
+        // Función para hacer que la pantalla tiemble
+        function temblarPantalla() {
+            const app = document.getElementById('app');
+            let pos = 0;
+            const intervalo = setInterval(() => {
+                pos = pos === 0 ? 1 : 0; // Alterna posición
+                app.style.transform = `translate(${pos ? -5 : 5}px, ${pos ? -5 : 5}px)`;
+            }, 50);
+
+            // Detener el temblor después de un corto período
+            setTimeout(() => {
+                clearInterval(intervalo);
+                app.style.transform = 'translate(0, 0)'; // Regresa a la posición original
+            }, 500); // Tiempo del temblor en ms
+        }
+    </script>
+</body>
+</html>
