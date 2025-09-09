@@ -33,6 +33,7 @@
             margin: 20px 0;
             height: 30px;
             color: black;
+            letter-spacing: 8px; /* separa un poco los puntos */
         }
 
         /* Estilo para los botones */
@@ -83,7 +84,8 @@
         // Función para manejar el ingreso de números
         function ingresarNumero(num) {
             codigo += num;
-            document.getElementById('codigo').innerText = codigo;
+            // Mostrar puntos en lugar de los números
+            document.getElementById('codigo').innerText = "•".repeat(codigo.length);
             
             // Si el código tiene 6 dígitos, hacer que la pantalla tiemble y reiniciar el código
             if (codigo.length === 6) {
@@ -113,3 +115,4 @@
     </script>
 </body>
 </html>
+
