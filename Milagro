@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>COMUNIONES PRODIGIOSAS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!-- Poco CSS: solo lo necesario para el efecto de marca de agua y dropcap.
+       En 2004-2006 se podía usar CSS inline; la estructura sigue siendo basada en tablas. -->
+  <style type="text/css">
+    /* Uso mínimo y simple, compatible con navegadores antiguos */
+    .dropcap {
+      float: left;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 48px;
+      line-height: 40px;
+      padding-right: 6px;
+      padding-left: 2px;
+      color: #8B1C1C; /* rojo oscuro del título */
+      font-weight: bold;
+    }
+    /* Marca de agua absoluta a la izquierda (simula sello) */
+    .watermark {
+      position: absolute;
+      left: 10px;
+      top: 120px;
+      opacity: 0.08; /* transparencia sutil */
+      filter: alpha(opacity=8); /* para IE antiguo */
+      z-index: 0;
+    }
+    /* Contenedor principal encima de watermark */
+    .pagecontainer {
+      position: relative;
+      z-index: 1;
+    }
+    /* Pequeñas leyendas en cajita */
+    .captionbox {
+      border: 1px solid #999999;
+      padding: 6px;
+      font-family: "Arial", Helvetica, sans-serif;
+      font-size: 11px;
+      text-align: center;
+      background-color: #F7F7F7;
+    }
+  </style>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#660099" alink="#FF0000" topmargin="10" leftmargin="10">
+
+<!-- Marca de agua (imagen grande, muy pálida) -->
+<img src="imagenes/sello-left.png" alt="" class="watermark" width="260" />
+
+<div class="pagecontainer">
+
+  <!-- Banner superior rojo con título central -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td>
+        <!-- una banda roja con borde inferior claro -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td bgcolor="#A92323" height="66" style="border-bottom:6px solid #D7D2C9;">
+              <div align="center">
+                <font face="Georgia, 'Times New Roman', Times, serif" color="#FFFFFF" size="6" style="letter-spacing:2px;">
+                  <b>COMUNIONES PRODIGIOSAS</b>
+                </font>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Espacio -->
+  <br>
+
+  <!-- Zona principal: tres columnas superiores (imagen + párrafo con dropcap) -->
+  <table width="90%" align="center" cellpadding="12" cellspacing="0" border="0">
+    <tr>
+      <!-- Columna 1 -->
+      <td width="33%" valign="top" style="vertical-align:top;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="center">
+              <img src="imagenes/img-top1.jpg" alt="imagen 1" width="220" height="200" style="border:1px solid #999999;" />
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <font face="Times New Roman, Times, serif" size="3">
+                <span class="dropcap">D</span>
+                <p align="justify" style="margin-top:0; margin-bottom:0;">
+                  urante la estadía en Proceno, la dominica, Santa Inés Segni, iba a veces al huerto del monasterio
+                  para rezar en soledad bajo un árbol de olivo. Un domingo, al despuntar el alba, permaneció inmersa
+                  en la oración, sin darse cuenta del tiempo transcurrido. Sólo después se acordó que era día festivo
+                  y que debía escuchar la Santa Misa en el coro. Pero un Ángel del Señor se acercó llevando consigo la
+                  Hostia inmaculada para darle la Comunión. Este hecho se repitió sucesivamente.
+                </p>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <!-- Columna 2 -->
+      <td width="33%" valign="top" style="vertical-align:top;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="center">
+              <img src="imagenes/img-top2.jpg" alt="imagen 2" width="220" height="200" style="border:1px solid #999999;" />
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <font face="Times New Roman, Times, serif" size="3">
+                <span class="dropcap">E</span>
+                <p align="justify" style="margin-top:0; margin-bottom:0;">
+                  l biógrafo de Santa Clara de Montefalco testimonió en los actos del proceso de canonización que
+                  “un día, Clara se acercó a la Comunión sin la capa. La hermana Giovanna le llamó duramente la atención,
+                  diciéndole: ‘vete, no quiero que comulgues’. Escuchando estas palabras, Clara se dio cuenta que estaba
+                  sin la capa y sintió un grandísimo dolor. Regresando a su celda, lloró amargamente. Y mientras estaba
+                  bañada en lágrimas y rezando, Cristo se apareció ante ella y luego de darle un beso, le dio la Comunión,
+                  dejándola profundamente consolada”.
+                </p>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <!-- Columna 3 -->
+      <td width="33%" valign="top" style="vertical-align:top;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="center">
+              <img src="imagenes/img-top3.jpg" alt="imagen 3" width="220" height="200" style="border:1px solid #999999;" />
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <font face="Times New Roman, Times, serif" size="3">
+                <span class="dropcap">L</span>
+                <p align="justify" style="margin-top:0; margin-bottom:0;">
+                  a Beata Angela de Foligno narró que “una vez vio a Cristo en la Hostia, con el rostro joven pero también,
+                  grande y majestuoso, parecido a un rey. Parecía que, sentado en el trono, tuviese en la mano algo que fuese
+                  como un signo de mandato […]. Entonces, cuando los otros se pusieron de rodillas, yo no lo hice; no sé bien
+                  si corrí hacia el altar o si no me pude mover por el gusto y la contemplación. Probé, luego, una gran tristeza
+                  porque el sacerdote depuso demasiado rápido la Hostia sobre el altar”.
+                </p>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Separador -->
+  <br>
+  <hr width="90%" size="1" color="#E0D6CE" align="center">
+
+  <!-- Fila inferior: 3 imágenes con pequeñas leyendas (cajitas) -->
+  <table width="90%" align="center" cellpadding="8" cellspacing="12" border="0">
+    <tr>
+      <td width="33%" valign="top" align="center">
+        <img src="imagenes/img-bottom1.jpg" alt="bottom1" width="200" height="230" style="display:block; border:1px solid #777777;" />
+        <div class="captionbox" style="margin-top:6px;">
+          <font face="Arial, Helvetica, sans-serif" size="2">
+            El cuadro representa a Santa Francesca Romana junto con algunas hermanas en estática admiración ante la Custodia
+            que irradió luz. <br><i>Pordenone (Museo cívico de arte)</i>
+          </font>
+        </div>
+      </td>
+
+      <td width="33%" valign="top" align="center">
+        <img src="imagenes/img-bottom2.jpg" alt="bottom2" width="200" height="230" style="display:block; border:1px solid #777777;" />
+        <div class="captionbox" style="margin-top:6px;">
+          <font face="Arial, Helvetica, sans-serif" size="2">
+            Una de las Misas milagrosas de San Gregorio Magno en la que aparece Cristo crucificado. <br><i>(Tier Museo Diocesano)</i>
+          </font>
+        </div>
+      </td>
+
+      <td width="33%" valign="top" align="center">
+        <img src="imagenes/img-bottom3.jpg" alt="bottom3" width="200" height="230" style="display:block; border:1px solid #777777;" />
+        <div class="captionbox" style="margin-top:6px;">
+          <font face="Arial, Helvetica, sans-serif" size="2">
+            La gran mística, Teresa de Ávila, gozaba de frecuentes visiones celestiales durante la Santa Misa.
+          </font>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Enlace descarga PDF -->
+  <p align="center" style="margin-top:18px;">
+    <a href="download/comunioni2.pdf">
+      <font face="Arial, Helvetica, sans-serif" size="3"><b>Descargar ficha completa (PDF)</b></font>
+    </a>
+  </p>
+
+  <!-- Pie de página -->
+  <br>
+  <table width="90%" align="center" cellpadding="4" cellspacing="0" border="0">
+    <tr>
+      <td align="left">
+        <font face="Arial, Helvetica, sans-serif" size="2" color="#7A7A7A">
+          &copy; 2006, Edizioni San Clemente
+        </font>
+      </td>
+    </tr>
+  </table>
+
+</div>
+</body>
+</html>
